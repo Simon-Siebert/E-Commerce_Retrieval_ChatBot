@@ -1,0 +1,195 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey"],
+      "bot_response": "Hey there!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+      "bot_response": "Goodbye! Thank you for chatting.",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["refund", "how", "can", "I", "get"],
+      "bot_response": "Unfortunately, we cannot offer you a refund on products bought online.",
+      "required_words": ["refund", "i"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "are", "you"],
+      "bot_response": "I'm great! Thanks for asking.",
+      "required_words": ["how", "are", "you"]
+    },
+  {
+    "response_type": "greeting",
+    "user_input": ["hey", "there"],
+    "bot_response": "Hello! How can I assist you today?",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["what's", "up"],
+    "bot_response": "Not much. How about you?",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["howdy"],
+    "bot_response": "Hello! How can I help you?",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "can", "I", "place", "an", "order"],
+    "bot_response": "To place an order, simply add the items to your cart and proceed to checkout.",
+    "required_words": ["place", "order"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["shipping", "cost"],
+    "bot_response": "Shipping costs vary depending on the destination and weight of the package.",
+    "required_words": ["shipping", "cost"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["payment", "methods"],
+    "bot_response": "We accept various payment methods, including credit cards and PayPal.",
+    "required_words": ["payment", "methods"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["thank", "you"],
+    "bot_response": "You're welcome! If you have any more questions, feel free to ask.",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["can", "I", "help", "you"],
+    "bot_response": "Thank you for offering, but I'm an automated assistant here to help you.",
+    "required_words": ["help", "you"]
+  },
+    {
+    "response_type": "question",
+    "user_input": ["product", "availability"],
+    "bot_response": "Please check the product page for availability information.",
+    "required_words": ["product", "availability"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["hey", "bot"],
+    "bot_response": "Hello! How can I assist you today?",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["what", "can", "you", "do"],
+    "bot_response": "I can help you with product inquiries, order tracking, and more. Just let me know what you need assistance with!",
+    "required_words": ["you", "do"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["delivery", "time"],
+    "bot_response": "Delivery times depend on the shipping method and your location. It usually takes 5 to 7 business days for standard delivery.",
+    "required_words": ["delivery", "time"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["return", "policy"],
+    "bot_response": "Our return policy allows returns within 30 days of purchase. Please review our Returns & Refunds page for detailed instructions.",
+    "required_words": ["return", "policy"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "bot"],
+    "bot_response": "Hi! How can I assist you today?",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["hey", "how", "can", "I", "help"],
+    "bot_response": "Hello! Let me know what you're looking for, and I'll do my best to assist you.",
+    "required_words": ["help"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["discount", "codes"],
+    "bot_response": "We occasionally offer discount codes. Keep an eye on our website and subscribe to our newsletter for updates.",
+    "required_words": ["discount", "codes"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["yo"],
+    "bot_response": "Hello! How can I help you today?",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["order", "tracking"],
+    "bot_response": "You can track your order by visiting the 'Order Tracking' page and entering your order number.",
+    "required_words": ["order", "tracking"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["product", "recommendation"],
+    "bot_response": "Based on your preferences, I recommend checking out our popular products such as [Product A] and [Product B].",
+    "required_words": ["product", "recommendation"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["hi", "there"],
+    "bot_response": "Hello! How can I assist you today?",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["order", "cancellation"],
+    "bot_response": "To cancel your order, please contact our customer support team with your order details.",
+    "required_words": ["order", "cancellation"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["how", "can", "I", "contact", "you"],
+    "bot_response": "You can reach us through our customer support hotline at [phone number] or by sending an email to [email address].",
+    "required_words": ["contact", "you"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["what", "are", "your", "business", "hours"],
+    "bot_response": "Our business hours are from 9 AM to 5 PM, Monday to Friday. We are closed on weekends and public holidays.",
+    "required_words": ["business", "hours"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["discount", "offers"],
+    "bot_response": "We have ongoing discount offers on selected products. Visit our 'Offers' page to see the current promotions.",
+    "required_words": ["discount", "offers"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["how", "do", "I", "create", "an", "account"],
+    "bot_response": "To create an account, click on the 'Sign Up' button on the top right corner of our website and follow the instructions.",
+    "required_words": ["create", "account"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["product", "details"],
+    "bot_response": "You can find detailed information about our products, including specifications and features, on their respective product pages.",
+    "required_words": ["product", "details"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["order", "status"],
+    "bot_response": "You can check the status of your order by logging into your account and visiting the 'Order History' section.",
+    "required_words": ["order", "status"]
+  }
+]
